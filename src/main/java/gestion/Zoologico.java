@@ -13,8 +13,6 @@ public class Zoologico {
     }
 
     public Zoologico() {
-        Zona zona = new Zona();
-        this.zonas.add(zona);
     }
 
     public String getNombre() {
