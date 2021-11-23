@@ -13,10 +13,10 @@ public class Anfibio extends Animal{
         super(nombre, edad, habitad, genero);
         this.colorPiel = colorPiel;
 
-        this.listado.add(this);
+        Anfibio.listado.add(this);
     }
     public Anfibio(){
-        this.listado.add(this);
+        Anfibio.listado.add(this);
     }
 
     public static ArrayList<Anfibio> getListado() {
